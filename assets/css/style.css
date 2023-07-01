@@ -1,0 +1,93 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 
+    1. Từ ngoài vào trong
+    2. Từ trên xuống dưới
+    3. Tổng quan đến chi tiết
+*/
+/* 
+    1. Vị trí
+    2. Kích thước (width , height)
+    3. Màu sắc
+    4. Kiểu dáng 
+*/
+div#main {
+    background-color: #fff;
+}
+
+/* HEADER */
+div#header {
+    height: 46px;
+    background-color: #000;
+}
+
+ul.nav , ul.subnav{
+    list-style-type: none;
+}
+
+ul.nav > li {
+    display: inline-block;
+}
+ul.nav li {
+    position: relative;
+}
+ul.nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ul.nav li a {
+    line-height: 46px;
+    padding: 0px 24px;
+    display: block;
+    text-decoration: none;
+}
+
+ul.nav ul.subnav li:hover a,
+ul.nav > li:hover > a {
+    background-color: #ccc;
+    color: #000;
+}
+
+ul.nav li:hover ul.subnav {
+    display: block;
+}
+
+ul.nav li ul.subnav {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+ul.nav ul.subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+/* SLIDER */
+/* div#slider {
+
+} */
+
+/* CONTENT */
+/* div#content {
+
+} */
+
+/* FOOTER */
+/* div#footer {
+
+} */
