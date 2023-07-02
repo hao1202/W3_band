@@ -215,23 +215,78 @@ ul.tickets-list li {
 }
 
 ul.tickets-list li span.sold-out {
-    background-color: #f44336;
-    color: #fff;
-    padding: 3px 6px;
-    margin-left: 16px;
+  background-color: #f44336;
+  color: #fff;
+  padding: 3px 6px;
+  margin-left: 16px;
 }
 
 ul.tickets-list li span.quantity {
-    float: right;
-    width: 24px;
-    height: 24px;
-    background-color: #000;
-    color: #fff;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 24px;
-    margin-right: 16px;
-    margin-top: -3px;
+  float: right;
+  width: 24px;
+  height: 24px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 16px;
+  margin-top: -3px;
+}
+
+div.places-list {
+  margin-top: 32px;
+  overflow: hidden;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 48px;
+}
+
+div.places-list div.place-item {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0 8px;
+}
+
+div.place-item img.place-img {
+  width: 100%;
+  display: block;
+}
+
+div.place-item img.place-img:hover {
+  opacity: 0.6;
+}
+
+div.place-item div.place-content {
+  background-color: #fff;
+  padding: 16px;
+  font-size: 15px;
+}
+
+div.place-content h3.place-heading {
+  font-size: 15px;
+  font-weight: 500;
+}
+div.place-content p.place-time {
+  margin-top: 15px;
+  opacity: 0.7;
+}
+div.place-content p.place-desc {
+  margin-top: 15px;
+  line-height: 1.4;
+}
+div.place-content a.place-buy-btn {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 11px 16px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+div.place-content a.place-buy-btn:hover {
+  background-color: #ccc;
+  color: #000;
 }
 /* FOOTER */
 /* div#footer {
