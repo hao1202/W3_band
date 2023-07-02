@@ -170,6 +170,29 @@ div.content-section p.about-description {
   text-align: justify;
   line-height: 1.4;
 }
+
+div#content div.members-list {
+  margin-top: 48px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+div#content div.members-list div.member-item {
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+div.members-list div.member-item p.member-name {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+div.members-list div.member-item img.member-avatar {
+  margin-top: 15px;
+  width: 154px;
+  border-radius: 4px;
+}
 /* FOOTER */
 /* div#footer {
 
