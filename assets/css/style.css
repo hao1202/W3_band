@@ -9,6 +9,9 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.text-white {
+  color: #fff !important;
+}
 /* 
     1. Từ ngoài vào trong
     2. Từ trên xuống dưới
@@ -135,8 +138,8 @@ div#slider div.text-description {
   margin-top: 25px;
 }
 /* CONTENT */
-div#content {
-}
+/* div#content {
+} */
 
 div#content div.content-section {
   width: 800px;
@@ -192,6 +195,43 @@ div.members-list div.member-item img.member-avatar {
   margin-top: 15px;
   width: 154px;
   border-radius: 4px;
+}
+
+div.tour-section {
+  background-color: #000;
+}
+
+ul.tickets-list {
+  background-color: #fff;
+  margin-top: 40px;
+  list-style-type: none;
+}
+
+ul.tickets-list li {
+  color: #757575;
+  font-size: 15px;
+  padding: 11px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul.tickets-list li span.sold-out {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 6px;
+    margin-left: 16px;
+}
+
+ul.tickets-list li span.quantity {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 16px;
+    margin-top: -3px;
 }
 /* FOOTER */
 /* div#footer {
