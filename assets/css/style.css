@@ -32,6 +32,7 @@ div#header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 ul.nav {
@@ -106,8 +107,32 @@ div#header i.search-icon {
 /* SLIDER */
 div#slider {
     margin-top: 46px;
+    padding-top: 50%;
+    background-image: url("/assets/img/chicago.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
+div#slider div.text-content {
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+div#slider div.text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+div#slider div.text-description {
+    font-size: 15px;
+    margin-top: 25px;
+}
 /* CONTENT */
 /* div#content {
 
