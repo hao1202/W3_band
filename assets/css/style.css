@@ -1,12 +1,12 @@
 /* Reset css */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* 
@@ -21,123 +21,155 @@ html {
     4. Kiểu dáng 
 */
 div#main {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 /* HEADER */
 div#header {
-    height: 46px;
-    background-color: #000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
+  height: 46px;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 ul.nav {
-    display: inline-block;
+  display: inline-block;
 }
 
-ul.nav , ul.subnav{
-    list-style-type: none;
+ul.nav,
+ul.subnav {
+  list-style-type: none;
 }
 
 ul.nav > li {
-    display: inline-block;
+  display: inline-block;
 }
 ul.nav li {
-    position: relative;
+  position: relative;
 }
 ul.nav > li > a {
-    color: #fff;
-    text-transform: uppercase;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 ul.nav li a {
-    line-height: 46px;
-    padding: 0px 24px;
-    display: block;
-    text-decoration: none;
+  line-height: 46px;
+  padding: 0px 24px;
+  display: block;
+  text-decoration: none;
 }
 
 ul.nav ul.subnav li:hover a,
 ul.nav > li:hover > a {
-    background-color: #ccc;
-    color: #000;
+  background-color: #ccc;
+  color: #000;
 }
 
 ul.nav li:hover ul.subnav {
-    display: block;
+  display: block;
 }
 
 ul.nav li ul.subnav {
-    display: none;
-    min-width: 160px;
-    position: absolute;
-    top: 46px;
-    left: 0;
-    background: #fff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  display: none;
+  min-width: 160px;
+  position: absolute;
+  top: 46px;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 ul.nav ul.subnav a {
-    color: #000;
-    padding: 0 12px;
-    line-height: 38px;
+  color: #000;
+  padding: 0 12px;
+  line-height: 38px;
 }
 
 div.nav i.nav-arrow-down {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 div#header div.search-btn {
-    float: right;
-    padding: 0px 21px;
-    cursor: pointer;
+  float: right;
+  padding: 0px 21px;
+  cursor: pointer;
 }
 div#header div.search-btn:hover {
-    background-color: #f44336;
+  background-color: #f44336;
 }
 div#header i.search-icon {
-    font-size: 18px;
-    color: #fff;
-    line-height: 46px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 46px;
 }
 /* SLIDER */
 div#slider {
-    margin-top: 46px;
-    padding-top: 50%;
-    background-image: url("/assets/img/chicago.jpg");
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  margin-top: 46px;
+  padding-top: 50%;
+  background-image: url("/assets/img/chicago.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 div#slider div.text-content {
-    position: absolute;
-    bottom: 47px;
-    color: #fff;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
+  position: absolute;
+  bottom: 47px;
+  color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
 div#slider div.text-heading {
-    font-weight: 500;
-    font-size: 24px;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 div#slider div.text-description {
-    font-size: 15px;
-    margin-top: 25px;
+  font-size: 15px;
+  margin-top: 25px;
 }
 /* CONTENT */
-/* div#content {
+div#content {
+}
 
-} */
+div#content div.content-section {
+  width: 800px;
+  padding: 64px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+div.content-section h2.section-heading,
+div.content-section p.section-subheading {
+  text-align: center;
+}
+
+div.content-section h2.section-heading {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+div.content-section p.section-subheading {
+  font-size: 15px;
+  margin-top: 25px;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+div.content-section p.about-description {
+  font-size: 15px;
+  margin-top: 25px;
+  text-align: justify;
+  line-height: 1.4;
+}
 /* FOOTER */
 /* div#footer {
 
