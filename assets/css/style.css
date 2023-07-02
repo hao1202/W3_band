@@ -28,6 +28,10 @@ div#main {
 div#header {
     height: 46px;
     background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 ul.nav {
@@ -100,9 +104,9 @@ div#header i.search-icon {
     line-height: 46px;
 }
 /* SLIDER */
-/* div#slider {
-
-} */
+div#slider {
+    margin-top: 46px;
+}
 
 /* CONTENT */
 /* div#content {
