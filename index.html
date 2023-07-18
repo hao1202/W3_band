@@ -66,8 +66,8 @@
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat.
           </p>
-          <div class="members-list">
-            <div class="member-item">
+          <div class="row members-list">
+            <div class="col col-3 text-center">
               <p class="member-name">Name</p>
               <img
                 src="/assets/img/bandmember.jpg"
@@ -75,7 +75,7 @@
                 class="member-avatar"
               />
             </div>
-            <div class="member-item">
+            <div class="col col-3 text-center">
               <p class="member-name">Name</p>
               <img
                 src="/assets/img/bandmember.jpg"
@@ -83,7 +83,7 @@
                 class="member-avatar"
               />
             </div>
-            <div class="member-item">
+            <div class="col col-3 text-center">
               <p class="member-name">Name</p>
               <img
                 src="/assets/img/bandmember.jpg"
@@ -108,8 +108,8 @@
               <li>November <span class="quantity">3</span></li>
             </ul>
             <!-- PLACES -->
-            <div class="places-list">
-              <div class="place-item">
+            <div class="row places-list">
+              <div class="col col-3">
                 <img
                   src="/assets/img/newyork.jpg"
                   alt="New York"
@@ -121,12 +121,10 @@
                   <p class="place-desc">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <button class="place-buy-btn js-buy-ticket">
-                    Buy Tickets
-                  </button>
+                  <button class="btn js-buy-ticket">Buy Tickets</button>
                 </div>
               </div>
-              <div class="place-item">
+              <div class="col col-3">
                 <img
                   src="/assets/img/paris.jpg"
                   alt="New York"
@@ -138,12 +136,10 @@
                   <p class="place-desc">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <button class="place-buy-btn js-buy-ticket">
-                    Buy Tickets
-                  </button>
+                  <button class="btn js-buy-ticket">Buy Tickets</button>
                 </div>
               </div>
-              <div class="place-item">
+              <div class="col col-3">
                 <img
                   src="/assets/img/sanfran.jpg"
                   alt="New York"
@@ -155,9 +151,7 @@
                   <p class="place-desc">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <button class="place-buy-btn js-buy-ticket">
-                    Buy Tickets
-                  </button>
+                  <button class="btn js-buy-ticket">Buy Tickets</button>
                 </div>
               </div>
             </div>
@@ -168,9 +162,67 @@
         <div class="content-section">
           <h2 class="section-heading">CONTACT</h2>
           <p class="section-subheading">Fan? Drop a note!</p>
+          <div class="row contact-content">
+            <div class="col col-2 contact-info">
+              <p><i class="ti-location-pin"></i>Chicago, US</p>
+              <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+              <p><i class="ti-email"></i>Email: mail@mail.com</p>
+            </div>
+            <div class="col col-2 contact-form">
+              <form action="">
+                <div class="row">
+                  <div class="col col-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="col col-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="row mt-8">
+                  <div class="col col-1">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Message"
+                      required
+                    />
+                  </div>
+                </div>
+                <input
+                  type="submit"
+                  value="Send"
+                  class="mt-16 btn pull-right"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- End: contact section -->
+        <div class="map-section">
+          <img src="/assets/img/map.jpg" alt="Map" />
         </div>
       </div>
-      <div id="footer"></div>
+      <div id="footer">
+        <div class="socials-list">
+          <a href=""><i class="ti-facebook"></i></a>
+          <a href=""><i class="ti-instagram"></i></a>
+          <a href=""><i class="ti-pinterest"></i></a>
+          <a href=""><i class="ti-twitter"></i></a>
+          <a href=""><i class="ti-linkedin"></i></a>
+          <a href=""><i class="ti-youtube"></i></a>
+        </div>
+        <p class="copyright">Powered by <a href="">Tran van hao</a></p>
+      </div>
     </div>
     <div class="modal js-modal">
       <div class="modal-container">
